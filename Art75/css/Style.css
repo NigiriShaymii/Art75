@@ -1,22 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 * {
 	margin: 0;
 	padding: 0;
-	background-color: #80bfff;
-	background: linear-gradient(to top, #3C3C9E, #7E7EEE);
+
 }
 
-body {
+.mar {
+
+	margin:150px;
+	background-color: #80bfff;
+
+}
+
+.bord {
+
+	border: none;
+
+
+}
+
+.pad {
+
+	padding-top: 100px;
+	background: linear-gradient(#1f004d,#0033cc);
+	box-shadow: 0 5px 50px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	border: 5px;
+	border-color: #00b300 #4dffc3;
+	border-style: groove ridge;
+
+	display: block;
+	margin: 50px auto;
 	width: 100%;
-	height: 100%;
-	background-color: #dfe2db;
-	font-family: 'Raleway', sans-serif;
+	height: 550px;
+
+	position: relative;
 }
 
 header {
-
-	background-color: #674172;
+	background-color: #80aaff;
 	top: 0;
 	width: 100%;
 	height: 50px;
@@ -27,23 +49,61 @@ header {
 
 }
 
-h1 {
-	width: 50%;
+body {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	background: #800000;
+	line-height: 1.8em;
+}
+
+footer {
+	background-color:#99ff66;
+	margin-top: 10px;
+	width:100%;
 	text-align: center;
-	color: white;
+	float:right;
+}
+
+
+h1 {
+	margin: auto;
+	padding: 100px;
 	display: block;
+	white-space: nowrap;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	background-color: #80aaff;
+	color: white;
+	text-shadow: 6px 6px 8px #0E224C;
 }
 
 h2 {
-	color: white;
+
+	font-size: 40px;
+	background: linear-gradient(#ffffcc,#F3E2A9);
+
 	text-align: center;
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+
+
 }
 
 p{
-	background: linear-gradient(to top, #39e600, #ffffb3);
+	background: linear-gradient(to top, #ff4d4d, #ffffb3);
+	box-shadow: 0 5px 50px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-color: #ff5c33 #ffff4d ;
+	border-style: groove ridge;
 }
 
-button2 {
+.col {
+	width: 50%;
+	height: 50%;
+}
+
+.button2 {
   display: block;
   border-radius: 4px;
   background-color: #D769A2;
@@ -84,20 +144,4 @@ button2 {
 .button2:hover span:after {
   opacity: 1;
   right: 0;
-}
-
-.bord {
-
-	border: 0 50% 0 50%;
-
-}
-
-.pad {
-
-	padding-top: 100px;
-}
-
-.col {
-	width: 50%;
-	height: 50%
 }

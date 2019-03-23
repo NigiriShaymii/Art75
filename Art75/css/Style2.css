@@ -11,9 +11,14 @@ body {
   line-height: 1.8em;
 }
 
-frame {
-  margin: auto;
-  padding: center;
+iframe {
+  padding: 50px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  padding: 50px;
 }
 
 .mar {
